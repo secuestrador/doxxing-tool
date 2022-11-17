@@ -6,8 +6,26 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: #371B58;
     color: #333;
-    font-size: 20px;
+    font-size: 20px; 
 }
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #26123d #371B58;
+}
+  
+*::-webkit-scrollbar {
+    width: 12px;
+}
+  
+*::-webkit-scrollbar-track {
+    background: #371B58;
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: #26123d;
+}
+  
+  
 
 #button {
     margin-left: 20px;
