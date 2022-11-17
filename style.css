@@ -1,0 +1,231 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #371B58;
+    color: #333;
+    font-size: 20px;
+}
+
+#button {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 70px;
+    font-size: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 6px;
+    transition: transform ease .5s, box-shadow ease .5s;
+    box-shadow: rgba(48, 48, 48, 0.4) 0px 5px, rgba(78, 78, 78, 0.3) 0px 10px, rgba(95, 95, 95, 0.2) 0px 15px, rgba(107, 107, 107, 0.1) 0px 20px, rgba(123, 123, 123, 0.05) 0px 25px;
+}
+
+#button:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+} 
+
+.box-result {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90%;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+.resultOutput {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 25px;;
+    margin: auto;
+    margin-top: 20px;
+    background: #4C3575;
+    border-radius: 6px;
+    width: fit-content;
+    color: white;
+    box-sizing: content-box;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 200px;
+}
+
+.template1 {
+    user-select: none;
+    text-shadow: 0px 0px 7px rgb(0, 0, 0);
+}
+
+#userImg {
+    display: flex;
+    margin-left: 592px;
+    position: absolute;
+    height: 50px;
+}
+
+#copyImg {
+    display: flex;
+    margin-left: 606px;
+    margin-top: 55px;
+    position: absolute;
+    height: 48px;
+    background: none;
+    border-radius: 30%;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+#copyImg:hover {
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    transform: scale(1.05); 
+}
+
+#goUp {
+    margin-top: 30px;
+    margin-left: 300px;
+    height: 20px;
+    position: relative;
+}
+
+.template1 textarea {
+    width: 50px;
+    resize: none;
+    Color: #fff;
+    font-size: 16px;
+    display: block;
+    min-width: 500px;
+    border-radius: 6px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-bottom: 4px solid #7858A6;
+    background-color: #371B58;
+    font-size: 14px;
+    letter-spacing: 2px;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.template1 textarea:hover {
+    box-shadow: inset 0 0 0 50px #7858A6;
+    border-bottom: 4px solid #371B58;
+    opacity: 1; 
+    transform: scale(1.02); 
+}
+
+.template1 textarea:focus {
+    box-shadow: inset 0 0 0 50px #7858A6;
+    border-bottom: 4px solid #371B58;
+    opacity: 1; 
+    transform: scale(1.04); 
+}
+
+.template1 input {
+    display: flex;
+    margin: auto ;
+    Color: #fff;
+    font-size: 16px;
+    display: block;
+    min-width: 200px;
+    border-radius: 6px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-bottom: 4px solid #7858A6;
+    background-color: #371B58;
+    font-size: 14px;
+    letter-spacing: 2px;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.template1 input:hover {
+    box-shadow: inset 0 0 0 50px #7858A6;
+    border-bottom: 4px solid #371B58;
+    opacity: 1; 
+    transform: scale(1.05); 
+}
+
+.template1 input:focus {
+    box-shadow: inset 0 0 0 50px #7858A6;
+    opacity: 1; 
+    transform: scale(1.1); 
+}
+
+.write-camps1 {
+    display: grid;
+    margin-left: 30px;
+    grid-template-columns: 300px 300px;
+}
+
+.write-camps1 {
+    text-align: center;
+}
+
+#dropped1 {
+    margin: 10px 0px 0px 0px;
+}
+
+
+
+/* .box-result__output {
+    display: flex;
+    min-width: 450px;
+    height: 206px;
+    margin: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(76, 53, 117);
+    box-shadow: rgba(76, 53, 117, 0.4) 0px 5px, rgba(76, 53, 117, 0.3) 0px 10px, rgba(76, 53, 117, 0.2) 0px 15px;
+    border-radius: 8px;
+    transition: transform ease .5s, box-shadow ease .5s;
+} */
+
+.box-result__output:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(76, 53, 117, 0.847);
+}
+
+.box-result__image {
+    align-self: center;
+    margin-left: 30px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url('https://cdn.discordapp.com/avatars/id/avatar.png?size=1024');
+    background-color: rgba(186, 55, 55, 0);
+    background-size: cover;
+}
+
+.box-result__text {
+    display: flex;
+    background: rgba(142, 56, 56,0.0);
+    color: #fff;
+    width: 300px;
+    height: 186px;
+    margin-left: 34%;
+    text-align: left;
+    align-content: center;
+    padding-top: 15px;
+    font-size: 19px;
+}
+
+.box-result__icon {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 20px;
+    margin-left: 425px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+}
